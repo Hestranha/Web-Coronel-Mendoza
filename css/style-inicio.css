@@ -625,8 +625,8 @@ width: 50px;
 }
 
 .footer-col .social-links a:hover{
-    color: #24262b;
-    background-color: #ffffff ;
+    color: #ffffff;
+    background-color: rgb(242, 5, 159);
 
 
 }
