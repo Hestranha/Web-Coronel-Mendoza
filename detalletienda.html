@@ -16,38 +16,79 @@
         <script src="https://kit.fontawesome.com/c563013b9e.js" crossorigin="anonymous"></script>
         <!-- Cambio en el head-->
     </head>
-    <!-- Navigation-->
-    <header class="header_detalletienda">
+    
+    
+   
+<!-- Cambio en el header -->
+
+    <header class="header_index">
         
-        <div class="container_header_detalletienda">
-            <body>
-                <!-- Navigation-->
-                <html>
-                <head>
-                <style>
-                    /* Estilos para la barra de navegación */
-                    .navbar {
-                    background-color: fuchsia;
-                    padding: 10px;
-                    }
-        
-                    .navbar a {
-                    color: white;
-                    text-decoration: none;
-                    margin-right: 10px;
-                    }
-        
-                    .navbar a:hover {
-                    text-decoration: underline;
-                    }
-                </style>
-                </head>
-                <body>
-                <div class="navbar">
-                    <a href="../../tiendas.html" class="home-link">
-                        <img src="https://cdn-icons-png.flaticon.com/512/18/18625.png" alt="Inicio">
+        <div class="container_header_index">
+            <div class="logo">
+
+                <div><a class="imglogo" href="#"> <img src="img/logo.png" alt="logo"></a></div>
+
+                <div><a href="#">Coronel Mendoza</a></div>
+
+            </div>
+            
+           
+            
+            <ul class="links">
+
+                <li class="li_nav"><a href="index.html" class="nav__link">Inicio</a></li>
+                <li class="li_nav"><a href="tiendas.html" class="nav__link">Tiendas</a></li>
+                <li class="li_nav"><a href="noticias.html" class="nav__link" class="red">Noticias</a></li>
+                <li class="li_nav"><a href="#" class="nav__link">Nosotros</a></li>
+
+            </ul>
+
+
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+    
+             
+            <div class="social-media">
+                    <a href="https://www.facebook.com/GaleriaCoronelMendoza" class="social-media-icon" target="_blank">
+                            <i class='bx bxl-facebook'></i>
                     </a>
-                </div>
+                    <a href="https://twitter.com/coronelmendozaa" class="social-media-icon" target="_blank">
+                            <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="https://www.facebook.com/GaleriaCoronelMendoz" class="social-media-icon" target="_blank">
+                            <i class='bx bxl-instagram' ></i>
+                    </a>
+            </div>
+            
+        </div>
+
+        <div class="resposive_menu">
+
+            <li class="li_nav"><a href="index.html" class="nav__link">Inicio</a></li>
+            <li class="li_nav"><a href="tiendas.html" class="nav__link">Tiendas</a></li>
+            <li class="li_nav"><a href="noticias.html" class="nav__link" class="red">Noticias</a></li>
+            <li class="li_nav"><a href="#" class="nav__link">Sobre Nosotros</a></li>
+        </div>
+    </header>
+    <script>
+        const togglebtn = document.querySelector('.toggle_btn')
+        const togglebtnIcon = document.querySelector('.toggle_btn i')
+        const resposiveMenu=document.querySelector('.resposive_menu')
+        togglebtn.onclick = function() {
+            resposiveMenu.classList.toggle('open')
+            const isOpen = resposiveMenu.classList.contains('open')
+            togglebtnIcon.classList=isOpen
+                ?'fa-solid fa-xmark'
+                :'fa-solid fa-bars'
+        }
+
+
+    </script>
+
+    <!-- Cambio en el header -->
+         
             <!-- Product section-->
             <section class="py-5">
                 <div class="container px-4 px-lg-5 my-5">
