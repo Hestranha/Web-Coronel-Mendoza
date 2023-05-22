@@ -8,7 +8,7 @@ const productos = [
             "id": "ropa"
         },
         "descripcion": " De 9:30am a 10:00 pm ",
-        "url": "../detalletienda.html"
+        "url": "./detalletienda.html"
     },
     {
         "id": "ropa-02",
