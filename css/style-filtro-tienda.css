@@ -169,7 +169,30 @@
 
 
 }
-
+.social-media{
+    width: 50%;
+    display: flex;
+    margin-right: 30px;
+    justify-content: flex-end;
+}
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+.social-media-icon:hover{
+    background: #fff;
+    color: #6aeeee;
+}
+.social-media-icon i{
+    font-size: 20px;
+    line-height: 50px;
+}
 
 
 /*--------------------cambio-------------*/
