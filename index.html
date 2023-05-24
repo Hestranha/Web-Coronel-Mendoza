@@ -12,17 +12,17 @@
     <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
     <link rel="icon" type="image/png" href="img/icon.jpg">
     <script src="splide-4.1.3/dist/js/splide.min.js"></script>
-     <!-- Cambio en el head-->
-     <script src="https://kit.fontawesome.com/c563013b9e.js" crossorigin="anonymous"></script>
-     <!-- Cambio en el head-->
+    <!-- Cambio en el head-->
+    <script src="https://kit.fontawesome.com/c563013b9e.js" crossorigin="anonymous"></script>
+    <!-- Cambio en el head-->
 </head>
 
-<body>
-    
-   <!-- Cambio en el header -->
+<main>
+
+    <!-- Cambio en el header -->
 
     <header class="header_index">
-        
+
         <div class="container_header_index">
             <div class="logo">
 
@@ -31,9 +31,9 @@
                 <div><a href="#">Coronel Mendoza</a></div>
 
             </div>
-            
-           
-            
+
+
+
             <ul class="links">
 
                 <li class="li_nav"><a href="index.html" class="nav__link">Inicio</a></li>
@@ -48,20 +48,20 @@
                 <i class="fa-solid fa-bars"></i>
             </div>
 
-    
-             
+
+
             <div class="social-media">
-                    <a href="https://www.facebook.com/GaleriaCoronelMendoza" class="social-media-icon" target="_blank">
-                            <i class='bx bxl-facebook'></i>
-                    </a>
-                    <a href="https://twitter.com/coronelmendozaa" class="social-media-icon" target="_blank">
-                            <i class='bx bxl-twitter' ></i>
-                    </a>
-                    <a href="https://www.facebook.com/GaleriaCoronelMendoz" class="social-media-icon" target="_blank">
-                            <i class='bx bxl-instagram' ></i>
-                    </a>
+                <a href="https://www.facebook.com/GaleriaCoronelMendoza" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://twitter.com/coronelmendozaa" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://www.facebook.com/GaleriaCoronelMendoz" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
             </div>
-            
+
         </div>
 
         <div class="resposive_menu">
@@ -75,20 +75,20 @@
     <script>
         const togglebtn = document.querySelector('.toggle_btn')
         const togglebtnIcon = document.querySelector('.toggle_btn i')
-        const resposiveMenu=document.querySelector('.resposive_menu')
-        togglebtn.onclick = function() {
+        const resposiveMenu = document.querySelector('.resposive_menu')
+        togglebtn.onclick = function () {
             resposiveMenu.classList.toggle('open')
             const isOpen = resposiveMenu.classList.contains('open')
-            togglebtnIcon.classList=isOpen
-                ?'fa-solid fa-xmark'
-                :'fa-solid fa-bars'
+            togglebtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
         }
 
 
     </script>
 
     <!-- Cambio en el header -->
-    
+
     <main class="cuerpo-inicio-inicio">
         <section class="s-inicio" id="id_inicio">
             <h2 class="titulo">BIENVENIDO A LA GALERIA COMERCIAL CORONEL MENDOZA</h2>
@@ -103,184 +103,217 @@
             </div>
         </section>
     </main>
-    <main class="cuerpo-subtitulo">
-        <h2 class="subtitulo">Noticias</h2>
-    </main>
-    <main class="cuerpo-imagen">
-        <div class="container-imagen">
-            <section id="main-slider" class="splide" aria-label="Main Slider">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide"><img src="img/inicio/cuadro.jpg" alt="" class="mi-imagen"></li>
-                        <li class="splide__slide"><img src="img/inicio/instrumentos.jpg" alt="" class="mi-imagen"></li>
-                        <li class="splide__slide"><img src="img/inicio/jueguetes.jpg" alt="" class="mi-imagen"></li>
-                        <li class="splide__slide"><img src="img/inicio/lamparas-cristal.jpg" alt="" class="mi-imagen">
-                        </li>
-                        <li class="splide__slide"><img src="img/inicio/ropa-inv.jpg" alt="" class="mi-imagen"></li>
-                        <li class="splide__slide"><img src="img/inicio/camaras.jpg" alt="" class="mi-imagen"></li>
-                        <li class="splide__slide"><img src="img/inicio/peluche.jpg" alt="" class="mi-imagen"></li>
-                    </ul>
-                </div>
-            </section>
-            <section id="thumbnail-slider" class="splide" aria-label="Thumbnail Slider">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide"><img src="img/inicio/cuadro.jpg" alt="" class="mi-imagen"></li>
-                        <li class="splide__slide"><img src="img/inicio/instrumentos.jpg" alt="" class="mi-imagen"></li>
-                        <li class="splide__slide"><img src="img/inicio/jueguetes.jpg" alt="" class="mi-imagen"></li>
-                        <li class="splide__slide"><img src="img/inicio/lamparas-cristal.jpg" alt="" class="mi-imagen">
-                        </li>
-                        <li class="splide__slide"><img src="img/inicio/ropa-inv.jpg" alt="" class="mi-imagen"></li>
-                        <li class="splide__slide"><img src="img/inicio/camaras.jpg" alt="" class="mi-imagen"></li>
-                        <li class="splide__slide"><img src="img/inicio/peluche.jpg" alt="" class="mi-imagen"></li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <div class="noticia-texto">
-            <div class="contenedor-texto">
-                <div class="checklist-texto">
-                    <div id="texto_1" class="texto">
-                        <h3 class="n-texto">Galería presenta una nueva exposición temática inspirada en el invierno</h3>
-                        <p>La Galería de Arte de Tacna te invita a sumergirte en la belleza
-                            del invierno con su última exposición temática. Descubre obras
-                            de arte que capturan la esencia de esta estación, desde paisajes
-                            hasta retratos evocadores. Admira la creatividad de los artistas
-                            locales y déjate llevar por el encanto invernal.</p>
-                    </div>
-                    <div id="texto_5" class="texto">
-                        <h3 class="n-texto">Descubre las últimas tendencias en accesorios para el invierno</h3>
-                        <p>Prepárate para el invierno con los accesorios más modernos y
-                            funcionales. Encuentra una amplia selección de productos, desde
-                            elegantes guantes hasta orejeras para el frio hasta. Completa
-                            tu estilo y mantente cálido durante la temporada con estos
-                            imprescindibles accesorios de invierno.</p>
-                    </div>
-                    <div id="texto_4" class="texto">
-                        <h3 class="n-texto">Renueva tu hogar con encantadoras decoraciones invernales</h3>
-                        <p>Dale un toque invernal a tu hogar con hermosas decoraciones.
-                            Descubre una amplia variedad de opciones, desde adornos con
-                            temática de invierno hasta elegantes piezas decorativas.
-                            Transforma tu casa en un acogedor refugio invernal con
-                            estas encantadoras decoraciones.</p>
-                    </div>
-                    <div id="texto_7" class="texto">
-                        <h3 class="n-texto">Juguetes Peluches de invierno para abrazar en los días fríos</h3>
-                        <p>Entra en calor abrazando a los adorables peluches de invierno.
-                            Encuentra una amplia selección de peluches suaves y
-                            reconfortantes con temáticas invernales. Estos compañeros
-                            peludos te brindarán calidez y alegría durante los días
-                            fríos de la temporada invernal.</p>
-                    </div>
-                    <div id="texto_6" class="texto">
-                        <h3 class="n-texto">Nueva tienda de cámaras y accesorios llega a Tacna para los amantes de la
-                            fotografía</h3>
-                        <p>Tacna se complace en recibir la apertura de una nueva tienda
-                            especializada en cámaras y accesorios. Esta tienda ofrece
-                            una amplia selección de cámaras digitales de alta calidad
-                            y accesorios fotográficos para satisfacer las necesidades
-                            de los amantes de la fotografía en la región. Desde cámaras
-                            compactas hasta modelos profesionales, encontrarás todo lo
-                            necesario para capturar momentos especiales.</p>
-                    </div>
-                    <div id="texto_3" class="texto">
-                        <h3 class="n-texto">Nueva tienda de juguetes abre sus puertas en Tacna</h3>
-                        <p>Tacna recibe a una emocionante adición con la apertura de una
-                            nueva tienda de juguetes. Ven y descubre una amplia selección
-                            de juguetes para todas las edades, desde peluches adorables
-                            hasta juegos de construcción y muñecas interactivas.
-                            ¡Encuentra el regalo perfecto para sorprender a tus seres
-                            queridos o para consentirte a ti mismo con la diversión y
-                            la imaginación que los juguetes pueden brindar!</p>
-                    </div>
-                    <div id="texto_2" class="texto">
-                        <h3 class="n-texto">Llega a Tacna la tienda de instrumentos musicales más grande de la región
-                        </h3>
-                        <p>Una amplia variedad de instrumentos de calidad, como guitarras,
-                            teclados, baterías y equipos de sonido profesionales, esta
-                            tienda se convierte en un paraíso para los amantes de la música
-                            en la región. Descubre el lugar perfecto para encontrar todo lo
-                            necesario para disfrutar de la música en Tacna.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-    <main class="cuerpo-subtitulo">
-        <h2 class="subtitulo">Comentarios</h2>
-    </main>
-    <main>
-        <div class="seccion-comentario">
-            <div>
-                <div class="container-comentario">
-                    <div class="titulo-comentario">
-                        <h1>Enviar comentario</h1>
-                    </div>
-                </div>
-                <div class="container-comentario">
-                    <section class="comentario-datos">
-                        <div class="input-comentario">
-                            <label for="nuevoNombre">Nombre:</label>
-                            <input id="nombre" type="text" placeholder="Ingrese nombre" maxlength="50">
-                            <label for="nuevoCorreo">Correo:</label>
-                            <input id="correo" type="email" placeholder="Ingrese correo" maxlength="50">
-                            <label for="nuevoComentario">Mensaje</label>
-                            <input id="nuevoComentario" type="text" placeholder="Ingrese comentario..." maxlength="72">
-                            <div class="btn-agg">
-                                <button onclick="nComentario()">PUBLICAR</button>
-                            </div>
+
+    <main class="fondo-imagen">
+        <div class="formato1-fondo">
+            <main class="cuerpo-subtitulo">
+                <h2 class="subtitulo">Noticias</h2>
+            </main>
+            <main class="cuerpo-imagen">
+                <div class="container-imagen">
+                    <section id="main-slider" class="splide" aria-label="Main Slider">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img src="img/inicio/cuadro.jpg" alt="" class="mi-imagen">
+                                </li>
+                                <li class="splide__slide"><img src="img/inicio/instrumentos.jpg" alt=""
+                                        class="mi-imagen"></li>
+                                <li class="splide__slide"><img src="img/inicio/jueguetes.jpg" alt="" class="mi-imagen">
+                                </li>
+                                <li class="splide__slide"><img src="img/inicio/lamparas-cristal.jpg" alt=""
+                                        class="mi-imagen">
+                                </li>
+                                <li class="splide__slide"><img src="img/inicio/ropa-inv.jpg" alt="" class="mi-imagen">
+                                </li>
+                                <li class="splide__slide"><img src="img/inicio/camaras.jpg" alt="" class="mi-imagen">
+                                </li>
+                                <li class="splide__slide"><img src="img/inicio/peluche.jpg" alt="" class="mi-imagen">
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="thumbnail-slider" class="splide" aria-label="Thumbnail Slider">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide"><img src="img/inicio/cuadro.jpg" alt="" class="mi-imagen">
+                                </li>
+                                <li class="splide__slide"><img src="img/inicio/instrumentos.jpg" alt=""
+                                        class="mi-imagen"></li>
+                                <li class="splide__slide"><img src="img/inicio/jueguetes.jpg" alt="" class="mi-imagen">
+                                </li>
+                                <li class="splide__slide"><img src="img/inicio/lamparas-cristal.jpg" alt=""
+                                        class="mi-imagen">
+                                </li>
+                                <li class="splide__slide"><img src="img/inicio/ropa-inv.jpg" alt="" class="mi-imagen">
+                                </li>
+                                <li class="splide__slide"><img src="img/inicio/camaras.jpg" alt="" class="mi-imagen">
+                                </li>
+                                <li class="splide__slide"><img src="img/inicio/peluche.jpg" alt="" class="mi-imagen">
+                                </li>
+                            </ul>
                         </div>
                     </section>
                 </div>
-            </div>
-            <br><br>
-            <div>
-                <div class="container-comentario">
-                    <div class="titulo-caja-comentario">
-                        <h1>Sección de comentarios</h1>
+                <div class="noticia-texto">
+                    <div class="contenedor-texto">
+                        <div class="checklist-texto">
+                            <div id="texto_1" class="texto">
+                                <h3 class="n-texto">Galería presenta una nueva exposición temática inspirada en el
+                                    invierno</h3>
+                                <p>La Galería de Arte de Tacna te invita a sumergirte en la belleza
+                                    del invierno con su última exposición temática. Descubre obras
+                                    de arte que capturan la esencia de esta estación, desde paisajes
+                                    hasta retratos evocadores. Admira la creatividad de los artistas
+                                    locales y déjate llevar por el encanto invernal.</p>
+                            </div>
+                            <div id="texto_5" class="texto">
+                                <h3 class="n-texto">Descubre las últimas tendencias en accesorios para el invierno</h3>
+                                <p>Prepárate para el invierno con los accesorios más modernos y
+                                    funcionales. Encuentra una amplia selección de productos, desde
+                                    elegantes guantes hasta orejeras para el frio hasta. Completa
+                                    tu estilo y mantente cálido durante la temporada con estos
+                                    imprescindibles accesorios de invierno.</p>
+                            </div>
+                            <div id="texto_4" class="texto">
+                                <h3 class="n-texto">Renueva tu hogar con encantadoras decoraciones invernales</h3>
+                                <p>Dale un toque invernal a tu hogar con hermosas decoraciones.
+                                    Descubre una amplia variedad de opciones, desde adornos con
+                                    temática de invierno hasta elegantes piezas decorativas.
+                                    Transforma tu casa en un acogedor refugio invernal con
+                                    estas encantadoras decoraciones.</p>
+                            </div>
+                            <div id="texto_7" class="texto">
+                                <h3 class="n-texto">Juguetes Peluches de invierno para abrazar en los días fríos</h3>
+                                <p>Entra en calor abrazando a los adorables peluches de invierno.
+                                    Encuentra una amplia selección de peluches suaves y
+                                    reconfortantes con temáticas invernales. Estos compañeros
+                                    peludos te brindarán calidez y alegría durante los días
+                                    fríos de la temporada invernal.</p>
+                            </div>
+                            <div id="texto_6" class="texto">
+                                <h3 class="n-texto">Nueva tienda de cámaras y accesorios llega a Tacna para los amantes
+                                    de la
+                                    fotografía</h3>
+                                <p>Tacna se complace en recibir la apertura de una nueva tienda
+                                    especializada en cámaras y accesorios. Esta tienda ofrece
+                                    una amplia selección de cámaras digitales de alta calidad
+                                    y accesorios fotográficos para satisfacer las necesidades
+                                    de los amantes de la fotografía en la región. Desde cámaras
+                                    compactas hasta modelos profesionales, encontrarás todo lo
+                                    necesario para capturar momentos especiales.</p>
+                            </div>
+                            <div id="texto_3" class="texto">
+                                <h3 class="n-texto">Nueva tienda de juguetes abre sus puertas en Tacna</h3>
+                                <p>Tacna recibe a una emocionante adición con la apertura de una
+                                    nueva tienda de juguetes. Ven y descubre una amplia selección
+                                    de juguetes para todas las edades, desde peluches adorables
+                                    hasta juegos de construcción y muñecas interactivas.
+                                    ¡Encuentra el regalo perfecto para sorprender a tus seres
+                                    queridos o para consentirte a ti mismo con la diversión y
+                                    la imaginación que los juguetes pueden brindar!</p>
+                            </div>
+                            <div id="texto_2" class="texto">
+                                <h3 class="n-texto">Llega a Tacna la tienda de instrumentos musicales más grande de la
+                                    región
+                                </h3>
+                                <p>Una amplia variedad de instrumentos de calidad, como guitarras,
+                                    teclados, baterías y equipos de sonido profesionales, esta
+                                    tienda se convierte en un paraíso para los amantes de la música
+                                    en la región. Descubre el lugar perfecto para encontrar todo lo
+                                    necesario para disfrutar de la música en Tacna.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="container-comentario">
-                    <ul id="comentarios" class="comentario-caja">
-                        <li class="comentario-a">
-                            <strong>John Doe - 01/05/2023 - 10:28</strong>
-                            <strong>Excelente trabajo en este sitio web.</strong>
-                        </li>
-                        <li class="comentario-a">
-                            <strong>Laura Smith - 10/02/2023 - 14:08</strong>
-                            <strong>La información proporcionada aquí es muy útil.</strong>
-                        </li>
-                        <li class="comentario-a">
-                            <strong>Emma Thompson - 22/01/2023 - 08:15</strong>
-                            <strong>¡Me encanta esta página web!</strong>
-                        </li>
-                        <li class="comentario-a">
-                            <strong>Liam Johnson - 14/11/2022 - 19:49</strong>
-                            <strong>Muy buena pagina</strong>
-                        </li>
-                        <li class="comentario-a">
-                            <strong>Olivia Davis - 12/09/2022 - 15:36</strong>
-                            <strong>Esta página es increíblemente útil. Gracias.</strong>
-                        </li>
-                        <li class="comentario-a">
-                            <strong>Noah Wilson - 05/04/2022 - 12:02</strong>
-                            <strong>Muy buena experiencia de usuario. Felicitaciones al equipo.</strong>
-                        </li>
-                    </ul>
+            </main>
+        </div>
+        <div class="formato2-fondo">
+            <main class="cuerpo-subtitulo">
+                <h2 class="subtitulo">Comentarios</h2>
+            </main>
+            <main>
+                <div class="seccion-comentario">
+                    <div>
+                        <div class="container-comentario">
+                            <div class="titulo-comentario">
+                                <h1>Enviar comentario</h1>
+                            </div>
+                        </div>
+                        <div class="container-comentario">
+                            <section class="comentario-datos">
+                                <div class="input-comentario">
+                                    <label for="nuevoNombre">Nombre:</label>
+                                    <input id="nombre" type="text" placeholder="Ingrese nombre" maxlength="50">
+                                    <label for="nuevoCorreo">Correo:</label>
+                                    <input id="correo" type="email" placeholder="Ingrese correo" maxlength="50">
+                                    <label for="nuevoComentario">Mensaje</label>
+                                    <input id="nuevoComentario" type="text" placeholder="Ingrese comentario..."
+                                        maxlength="72">
+                                    <div class="btn-agg">
+                                        <button onclick="nComentario()">PUBLICAR</button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div>
+                        <div class="container-comentario">
+                            <div class="titulo-caja-comentario">
+                                <h1>Sección de comentarios</h1>
+                            </div>
+                        </div>
+                        <div class="container-comentario">
+                            <ul id="comentarios" class="comentario-caja">
+                                <li class="comentario-a">
+                                    <strong>John Doe - 01/05/2023 - 10:28</strong>
+                                    <strong>Excelente trabajo en este sitio web.</strong>
+                                </li>
+                                <li class="comentario-a">
+                                    <strong>Laura Smith - 10/02/2023 - 14:08</strong>
+                                    <strong>La información proporcionada aquí es muy útil.</strong>
+                                </li>
+                                <li class="comentario-a">
+                                    <strong>Emma Thompson - 22/01/2023 - 08:15</strong>
+                                    <strong>¡Me encanta esta página web!</strong>
+                                </li>
+                                <li class="comentario-a">
+                                    <strong>Liam Johnson - 14/11/2022 - 19:49</strong>
+                                    <strong>Muy buena pagina</strong>
+                                </li>
+                                <li class="comentario-a">
+                                    <strong>Olivia Davis - 12/09/2022 - 15:36</strong>
+                                    <strong>Esta página es increíblemente útil. Gracias.</strong>
+                                </li>
+                                <li class="comentario-a">
+                                    <strong>Noah Wilson - 05/04/2022 - 12:02</strong>
+                                    <strong>Muy buena experiencia de usuario. Felicitaciones al equipo.</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </main>
+        </div>
+        <div class="formato3-fondo">
+            <main class="cuerpo-subtitulo">
+                <h2 class="subtitulo">Ubicanos aquí</h2>
+            </main>
+            <main class="cuerpo-ubicacion">
+                <iframe class="mapa-ubicacion"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2683.0721099575535!2d-70.24557147283775!3d-18.004913516626043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915acf7c318d961b%3A0xdc318a37a5fca005!2sGaler%C3%ADas%20Coronel%20Mendoza!5e0!3m2!1ses-419!2spe!4v1684632403081!5m2!1ses-419!2spe"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="ubicanos-aqui">
+                    <img class="imagen-ubicacion" src="img/inicio/location-maps.gif" alt="">
+                    <h2>¡Encuéntranos aquí!</h2>
+                    <p>Av. Coronel Mendoza N° 1105, Tacna-Peru</p>
+                </div>
+
+            </main>
         </div>
     </main>
-    <main class="cuerpo-subtitulo">
-        <h2 class="subtitulo">Ubicanos aquí</h2>
-    </main>
-    <main class="cuerpo-ubicacion">
-        <iframe class="mapa-ubicacion"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2683.0721099575535!2d-70.24557147283775!3d-18.004913516626043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915acf7c318d961b%3A0xdc318a37a5fca005!2sGaler%C3%ADas%20Coronel%20Mendoza!5e0!3m2!1ses-419!2spe!4v1684632403081!5m2!1ses-419!2spe"
-            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <img class="imagen-ubicacion" src="img/inicio/ubica.png" alt="">
-    </main>
-   <!-- Cambio en el footer -->
+
+    <!-- Cambio en el footer -->
     <footer class="footer_index">
         <div class="container_footer_index">
             <div class="row">
@@ -308,7 +341,7 @@
                 <div class="footer-col">
                     <h4>Siganos</h4>
                     <div class="social-links">
-                            
+
                         <a href=""><i class="fa-brands fa-facebook"></i></a>
                         <a href=""><i class="fa-brands fa-instagram"></i></a>
                         <a href=""><i class="fa-brands fa-twitter"></i></a>
@@ -316,16 +349,16 @@
 
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </footer>
     <!-- Cambio en el footer -->
-    
-    
-    
-</body>
-<script src="javas/inicio/script-img.js"></script>
-<script src="javas/script-noticia.js"></script>
+
+
+
+    </body>
+    <script src="javas/inicio/script-img.js"></script>
+    <script src="javas/script-noticia.js"></script>
 
 </html>
