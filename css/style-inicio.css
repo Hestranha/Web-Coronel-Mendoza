@@ -183,7 +183,7 @@ a {
     background-image: linear-gradient(to top,
             rgba(255, 0, 255, 0) 100%,
             rgba(238, 0, 159, 0) 100%),
-        url(../img/fondo3.jpg);
+        url(../img/fondo2.jpg);
     background-size: cover;
     padding: 50px;
 }
