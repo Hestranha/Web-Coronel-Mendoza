@@ -180,6 +180,106 @@ const productos = [
             "id": "carteras"
         },
         "descripcion": "De 9:30am a 10:00 pm "
+    },
+    {
+        "id": "comida-01",
+        "titulo": "BEMBOS",
+        "imagen": "./img/comida/01.jpg",
+        "categoria": {
+            "nombre": "Seccion Comidas",
+            "id": "comida"
+        },
+        "descripcion": "De 9:30am a 10:00 pm "
+    },
+    {
+        "id": "comida-02",
+        "titulo": "Embarcadero",
+        "imagen": "./img/comida/02.jpg",
+        "categoria": {
+            "nombre": "Seccion Comidas",
+            "id": "comida"
+        },
+        "descripcion": "De 9:30am a 10:00 pm "
+    },
+    {
+        "id": "comida-03",
+        "titulo": "Mr.SHAO",
+        "imagen": "./img/comida/03.jpg",
+        "categoria": {
+            "nombre": "Seccion Comidas",
+            "id": "comida"
+        },
+        "descripcion": "De 9:30am a 10:00 pm "
+    },
+    {
+        "id": "jugueteria-01",
+        "titulo": "Imaginarium",
+        "imagen": "./img/jugueteria/01.jpg",
+        "categoria": {
+            "nombre": "Jugueterias",
+            "id": "jugueteria"
+        },
+        "descripcion": "De 9:30am a 10:00 pm "
+    },
+    {
+        "id": "jugueteria-02",
+        "titulo": "Store GAMES",
+        "imagen": "./img/jugueteria/02.jpg",
+        "categoria": {
+            "nombre": "Jugueterias",
+            "id": "jugueteria"
+        },
+        "descripcion": "De 9:30am a 10:00 pm "
+    },
+    {
+        "id": "jugueteria-03",
+        "titulo": "Digeza",
+        "imagen": "./img/jugueteria/03.jpg",
+        "categoria": {
+            "nombre": "Jugueterias",
+            "id": "jugueteria"
+        },
+        "descripcion": "De 9:30am a 10:00 pm "
+    },
+    {
+        "id": "jugueteria-04",
+        "titulo": "CARAMBA",
+        "imagen": "./img/jugueteria/04.jpg",
+        "categoria": {
+            "nombre": "Jugueterias",
+            "id": "jugueteria"
+        },
+        "descripcion": "De 9:30am a 10:00 pm "
+    },
+    {
+        "id": "tecnologia-01",
+        "titulo": "GBgrupo",
+        "imagen": "./img/tecnologia/01.jpg",
+        "categoria": {
+            "nombre": "Tiendas de tecnologia",
+            "id": "tecnologia"
+        },
+        "descripcion": "De 9:30am a 10:00 pm "
+    },
+    {
+        "id": "jugueteria-02",
+        "titulo": "R&M",
+        "imagen": "./img/tecnologia/02.jpg",
+        "categoria": {
+            "nombre": "Tiendas de tecnologia",
+            "id": "tecnologia"
+        },
+        "descripcion": "De 9:30am a 10:00 pm "
+    },
+    {
+        "id": "jugueteria-03",
+        "titulo": "CoolBox",
+        "imagen": "./img/tecnologia/03.jpg",
+        "categoria": {
+            "nombre": "Tiendas de tecnologia",
+            "id": "tecnologia"
+        },
+        "descripcion": "De 9:30am a 10:00 pm "
     }
 ];
 
