@@ -18,8 +18,7 @@ const productos = [
             "nombre": "Tiendas de Ropa",
             "id": "ropa"
         },
-        "descripcion": "De 9:30am a 10:00 pm ",
-        "url": "tienda2.html"
+        "descripcion": "De 9:30am a 10:00 pm "
     },
     {
         "id": "ropa-03",
@@ -59,7 +58,8 @@ const productos = [
             "nombre": "Tienda de accesorios",
             "id": "accesorios"
         },
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalletienda.html"
     },
     {
         "id": "accesorio-02",
@@ -139,7 +139,8 @@ const productos = [
             "nombre": "Tienda de carteras",
             "id": "carteras"
         },
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalletienda.html"
     },
     {
         "id": "cartera-02",
@@ -189,7 +190,8 @@ const productos = [
             "nombre": "Seccion Comidas",
             "id": "comida"
         },
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalletienda.html"
     },
     {
         "id": "comida-02",
@@ -219,7 +221,8 @@ const productos = [
             "nombre": "Jugueterias",
             "id": "jugueteria"
         },
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalletienda.html"
     },
     {
         "id": "jugueteria-02",
@@ -259,7 +262,8 @@ const productos = [
             "nombre": "Tiendas de tecnologia",
             "id": "tecnologia"
         },
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalletienda.html"
     },
     {
         "id": "jugueteria-02",
