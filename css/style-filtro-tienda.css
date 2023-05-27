@@ -262,7 +262,7 @@ a {
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-image: url('../img/fondo_tienda.jpg');
+    background-image: url('../img/f_tienda.jpg');
 }
 
 aside {
@@ -464,8 +464,26 @@ main {
     vertical-align: middle;
   }
 
+  .producto-detalles .producto-ubicacion:before {
+    position: relative;
+    display: inline-block;
+    content: "place";
+    font-family: "Material Icons";
+    font-size: 1.3rem;
+    color: #fff;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+  }
 
-  
+  .rectangulo-rosado {
+    background-image: url('../img/cab_tienda.jpg');
+    background-size: cover;
+    background-position: center bottom; 
+    border-radius: 10px;
+    padding: 100px 20px;
+    margin: 10px 10px; 
+  }
+
 .producto:hover .producto-imagen {
     transform: scale(1.1);
   }
