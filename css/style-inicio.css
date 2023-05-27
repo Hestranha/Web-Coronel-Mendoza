@@ -380,6 +380,12 @@ a {
     padding: 15px 30px;
     border-radius: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Cinzel', serif;
+    -webkit-text-stroke: 1px rgb(175, 27, 155);
+}
+
+.textito{
+    -webkit-text-stroke: 1px rgb(223, 24, 223);
 }
 
 .contenedor-inicio {
