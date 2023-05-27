@@ -262,16 +262,10 @@ a {
 }
 
 /* INICIO-INICIO-INICIO-INICIO-INICIO-INICIO */
+
 .cuerpo-inicio-inicio {
     height: 100vh;
-    background-image: linear-gradient(to top,
-            rgba(161, 140, 209, 0.503) 0%,
-            rgba(251, 194, 235, 0.501) 100%),
-        url(../img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+    background-color: #a18cd1;
 }
 
 .s-inicio {
@@ -280,52 +274,65 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     height: 100vh;
 }
 
-.titulo {
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    background-color: transparent;
-    font-weight: 300;
     color: #000000;
-    font-weight: bold;
-    line-height: 1.5;
-    width: 80%;
-    /* Ancho en píxeles */
-    font-size: 50px;
-    font-family: "Lato", sans-serif;
+}
+
+.titulo {
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    display: block;
-    /* Cambiado de inline-block a block */
-    margin: 0;
-    /* Centrar horizontalmente */
-    margin-bottom: 0;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .contenedor-inicio {
-    margin-top: -60px;
+    color: #ffffff;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 0;
 }
 
 .checklist-inicio {
-    margin-top: 0;
     width: 100%;
 }
 
 .inicio {
-    margin-top: 0;
     font-size: 20px;
     font-weight: bold;
     font-family: "Lato", sans-serif;
     width: 100%;
 }
+
+
 
 /* NOTICIA-NOTICIA-NOTICIA-NOTICIA-NOTICIA-NOTICIA */
 .cuerpo-subtitulo {
