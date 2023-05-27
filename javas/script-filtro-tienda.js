@@ -7,6 +7,7 @@ const productos = [
             "nombre": "Tiendas de Ropa",
             "id": "ropa"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": " De 9:30am a 10:00 pm ",
         "url": "./detalletienda.html"
     },
@@ -18,6 +19,7 @@ const productos = [
             "nombre": "Tiendas de Ropa",
             "id": "ropa"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -28,6 +30,7 @@ const productos = [
             "nombre": "Tiendas de Ropa",
             "id": "ropa"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -38,6 +41,7 @@ const productos = [
             "nombre": "Tiendas de Ropa",
             "id": "ropa"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -48,6 +52,7 @@ const productos = [
             "nombre": "Tiendas de Ropa",
             "id": "ropa"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -58,6 +63,7 @@ const productos = [
             "nombre": "Tienda de accesorios",
             "id": "accesorios"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm ",
         "url": "./detalletienda.html"
     },
@@ -69,6 +75,7 @@ const productos = [
             "nombre": "Tienda de accesorios",
             "id": "accesorios"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -79,6 +86,7 @@ const productos = [
             "nombre": "Tienda de accesorios",
             "id": "accesorios"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -89,6 +97,7 @@ const productos = [
             "nombre": "Tienda de accesorios",
             "id": "accesorios"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -99,6 +108,7 @@ const productos = [
             "nombre": "Tienda de accesorios",
             "id": "accesorios"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -109,6 +119,7 @@ const productos = [
             "nombre": "Tienda de accesorios",
             "id": "accesorios"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -119,6 +130,7 @@ const productos = [
             "nombre": "Tienda de accesorios",
             "id": "accesorios"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -129,6 +141,7 @@ const productos = [
             "nombre": "Tienda de accesorios",
             "id": "accesorios"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -139,6 +152,7 @@ const productos = [
             "nombre": "Tienda de carteras",
             "id": "carteras"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm ",
         "url": "./detalletienda.html"
     },
@@ -150,6 +164,7 @@ const productos = [
             "nombre": "Tienda de carteras",
             "id": "carteras"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -160,6 +175,7 @@ const productos = [
             "nombre": "Tienda de carteras",
             "id": "carteras"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -170,6 +186,7 @@ const productos = [
             "nombre": "Tienda de carteras",
             "id": "carteras"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -180,6 +197,7 @@ const productos = [
             "nombre": "Tienda de carteras",
             "id": "carteras"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -190,6 +208,7 @@ const productos = [
             "nombre": "Seccion Comidas",
             "id": "comida"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm ",
         "url": "./detalletienda.html"
     },
@@ -201,6 +220,7 @@ const productos = [
             "nombre": "Seccion Comidas",
             "id": "comida"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -211,6 +231,7 @@ const productos = [
             "nombre": "Seccion Comidas",
             "id": "comida"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -273,6 +294,7 @@ const productos = [
             "nombre": "Tiendas de tecnologia",
             "id": "tecnologia"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     },
     {
@@ -283,6 +305,7 @@ const productos = [
             "nombre": "Tiendas de tecnologia",
             "id": "tecnologia"
         },
+        "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm "
     }
 ];
@@ -323,6 +346,7 @@ function cargarProductos(productosElegidos) {
             <div class="producto-detalles">
                 <h3 class="producto-titulo">${producto.titulo}</h3>
                 <p class="producto-descripcion">${producto.descripcion}</p>
+                <p class="producto-ubicacion">${producto.ubicacion}</p>
                 <button class="producto-vermas" id="${producto.id}">Ver mas </button>
             </div>
         `;
