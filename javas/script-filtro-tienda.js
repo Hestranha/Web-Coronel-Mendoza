@@ -65,7 +65,7 @@ const productos = [
         },
         "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm ",
-        "url": "./detalletienda.html"
+        "url": "./detalletienda2.html"
     },
     {
         "id": "accesorio-02",
@@ -154,7 +154,7 @@ const productos = [
         },
         "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm ",
-        "url": "./detalletienda.html"
+        "url": "./detalletienda3.html"
     },
     {
         "id": "cartera-02",
@@ -210,7 +210,7 @@ const productos = [
         },
         "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm ",
-        "url": "./detalletienda.html"
+        "url": "./detalletienda4.html"
     },
     {
         "id": "comida-02",
@@ -243,7 +243,7 @@ const productos = [
             "id": "jugueteria"
         },
         "descripcion": "De 9:30am a 10:00 pm ",
-        "url": "./detalletienda.html"
+        "url": "./detalletienda5.html"
     },
     {
         "id": "jugueteria-02",
@@ -284,7 +284,7 @@ const productos = [
             "id": "tecnologia"
         },
         "descripcion": "De 9:30am a 10:00 pm ",
-        "url": "./detalletienda.html"
+        "url": "./detalletienda6.html"
     },
     {
         "id": "jugueteria-02",
