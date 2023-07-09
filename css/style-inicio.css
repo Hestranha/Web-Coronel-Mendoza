@@ -11,54 +11,70 @@ a {
 
 /*------------------- Cambio en el header-----------------*/
 
-.header{
-        
+.header {
+
     margin: 0;
-    height: 70px;   
-    font-family:sans-serif;
+    height: 70px;
+    font-family: sans-serif;
     box-sizing: border-box;
-        
-        
-   /* height: 100vh;*/
+
+
+    /* height: 100vh;*/
     width: 100%;
     padding: 0 8%;
     position: relative;
-    background-color:  rgb(242, 5, 159);
-   
+    background-color: #fd6cc8;
+
     background-repeat: no-repeat;
-    background-size:cover;
-    border: 2px solid rgb(10, 6, 10);
-    
+    background-size: cover;
+    border: 0px solid rgb(10, 6, 10);
+
 }
 
-.nav{
-    height: 70px; 
+.nav {
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo{
-    width: 120px;
+.logo {
+    width: 100px;
 }
 
-.nav_links{
-    padding: 20px 0 ;
+.nav_links {
+    padding: 20px 0;
 }
 
-.nav_links li{
+.nav_links li {
     display: inline-block;
     margin: 0 15px;
 }
 
-.nav_links li a{
+.nav_links li a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     padding: 5px 0;
     position: relative;
+    animation: glowing 2s ease-in-out infinite;
 }
 
-.nav_links li a::after{
+@keyframes glowing {
+    0% {
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+
+    50% {
+        text-shadow: 0 0 5px rgb(255, 0, 234), 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+
+    100% {
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+.nav_links li a::after {
 
     content: '';
     background: #ffffff;
@@ -70,12 +86,12 @@ a {
     transition: width 0.5s;
 }
 
-.nav_links li a:hover::after{
+.nav_links li a:hover::after {
     width: 100%;
 
 }
 
-.toggle_btn{
+.toggle_btn {
     background-color: #e68d8d;
     color: #fff;
     padding: 5px 10px;
@@ -84,37 +100,37 @@ a {
     display: none;
 }
 
-.content{
+.content {
     position: relative;
-    
+
     width: 90%;
     max-width: 900px;
-    
+
     text-align: center;
     color: #fff;
 }
 
-.content h1{
+.content h1 {
     font-size: 65px;
     font-weight: 600;
     margin-bottom: 40px;
 }
 
-.category-list{
+.category-list {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 40px; 
+    margin-top: 40px;
 
 }
 
-.category-list a{
+.category-list a {
     text-decoration: none;
     color: #fff;
 }
 
-.category{
+.category {
     width: 150px;
     height: 180px;
     border-radius: 8%;
@@ -127,17 +143,17 @@ a {
     flex-direction: column;
 }
 
-.category:hover{
+.category:hover {
 
     background: rgba(104, 10, 71, 0.979);
 
 }
 
-.category p{
+.category p {
     margin: 0;
 }
 
-.category img{
+.category img {
     width: 70px;
     margin-bottom: 5px;
     filter: invert(0.9) sepia(0) hue-rotate(20deg) saturate(1000%);
@@ -145,16 +161,14 @@ a {
 }
 
 
-.social-links{
+.social-links {
     align-items: center;
     padding-top: 10px;
+}
 
-  }
+.social-links a {
 
-  .social-links a{
-    
     /*justify-content: center;  Centra horizontalmente */
-    
     display: inline-block;
     height: 35px;
     width: 35px;
@@ -165,28 +179,30 @@ a {
     transition: all 0.5s ease;
     align-items: center;
 
-  }
-
-  .social-links a:hover {
-    color: #ffffff;
-    background-color: rgb(117, 110, 115);
 }
 
-.social-links a i{
-    color: white;
+.social-links a:hover {
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+}
+
+.social-links a i {
+    color: rgb(0, 0, 0);
 }
 
 @media(max-width:872px) {
-    .nav_links{
+    .nav_links {
         display: none;
     }
-    .toggle_btn{
+
+    .toggle_btn {
         display: block;
     }
 
 
 }
-.redes_sociales{
+
+.redes_sociales {
     width: 50px;
     height: 50px;
 }
@@ -198,16 +214,18 @@ a {
     .nav_links {
         display: none;
     }
-    .social-links{
+
+    .social-links {
         display: none;
     }
-    .toggle_btn{
+
+    .toggle_btn {
         display: block;
     }
 
 }
 
-.resposive_menu li a{
+.resposive_menu li a {
     text-decoration: none;
     color: rgb(248, 248, 248);
     font-size: 10px;
@@ -252,9 +270,9 @@ a {
     background-image: linear-gradient(to top,
             rgba(255, 0, 255, 0) 100%,
             rgba(238, 0, 159, 0) 100%),
-        url(../img/fondo2.jpg);
+        url(../img/fondo-comentario.jpg);
     background-size: cover;
-    padding: 50px;
+    padding: 0px;
 }
 
 /*FORMATO FONDO CODIGO EN MOVIMIENTO*/
@@ -275,16 +293,17 @@ a {
     align-items: center;
     /* Centrar verticalmente */
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 0px;
     padding: 30px;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .formato2-fondo {
+    flex-direction: row;
     background-color: rgb(255, 255, 255);
-    height: 90vh;
+    height: 70vh;
     /* Altura*/
     width: 80vw;
     /* Ancho*/
@@ -298,12 +317,11 @@ a {
     /* Centrar horizontalmente */
     align-items: center;
     /* Centrar verticalmente */
-    flex-direction: column;
-    border-radius: 20px;
+    border-radius: 0px;
     padding: 30px;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 .formato3-fondo {
@@ -323,7 +341,7 @@ a {
     align-items: flex-start;
     /* Centrar verticalmente */
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 0px;
     padding: 30px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -359,33 +377,39 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: brightness(0.3);
 }
 
 .contenido-video {
     position: absolute;
+    width: 80%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #000000;
+    background-color: transparent;
 }
 
 .titulo {
     font-size: 60px;
-    font-family: "Playfair Display", serif;
-    text-transform: uppercase;
+    font-family: "Raleway", serif;
     letter-spacing: 1px;
-    margin-bottom: 30px;
-    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0px;
+    color: #ffffff;
+    background-color: transparent;
     padding: 15px 30px;
     border-radius: 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    font-family: 'Cinzel', serif;
-    -webkit-text-stroke: 1px rgb(175, 27, 155);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    /* font-family: 'Cinzel', serif; */
 }
 
-.textito{
-    -webkit-text-stroke: 1px rgb(223, 24, 223);
+.textito {
+    font-family: "Raleway", serif;
+    font-weight: lighter;
+    background-color: transparent;
+    width: 80%;
+    color: #ffffff;
 }
 
 .contenedor-inicio {
@@ -405,11 +429,66 @@ a {
     font-weight: bold;
     font-family: "Lato", sans-serif;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    background-color: transparent;
 }
 
 
 
 /* NOTICIA-NOTICIA-NOTICIA-NOTICIA-NOTICIA-NOTICIA */
+.primera-parte {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.subtitulos-noticia {
+    flex-wrap: wrap;
+    background-color: transparent;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 100%;
+}
+
+.subtitulo-1 {
+    font-family: "Raleway", serif;
+    font-size: 15px;
+    color: #6b6b6b;
+    margin: 0;
+    /* Eliminar margen */
+    padding: 0;
+    /* Eliminar relleno */
+}
+
+.subtitulo-2 {
+    font-family: "Raleway", serif;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 0;
+    /* Eliminar margen */
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 0;
+    /* Eliminar relleno */
+}
+
+.subtitulo-3 {
+    font-family: "Raleway", serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 0;
+    /* Eliminar margen */
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 0;
+    /* Eliminar relleno */
+}
+
 .cuerpo-subtitulo {
     background-color: rgba(230, 31, 31, 0);
     display: flex;
@@ -434,7 +513,7 @@ a {
     margin-top: 0px;
     margin-bottom: 20px;
     font-size: 50px;
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", serif;
     letter-spacing: 2px;
     text-shadow: 2px 2px 4px rgba(255, 6, 201, 0.3);
 }
@@ -462,6 +541,19 @@ a {
     display: inline-block;
 }
 
+.container-imagen button {
+    background-color: #ff8bf5;
+    color: #ffffff;
+    border: 1px solid #000000;
+    transition: background-color 0.3s ease;
+    opacity: 1;
+}
+
+.container-imagen button:hover {
+    background-color: #ff00ee;
+}
+
+
 .noticia-texto {
     width: 50%;
     height: 100%;
@@ -470,6 +562,8 @@ a {
 }
 
 .contenedor-texto {
+    height: 100%;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -477,21 +571,24 @@ a {
 }
 
 .checklist-texto {
+    background-color: transparent;
     margin-left: 40px;
     margin-right: 40px;
     width: 100%;
+    height: 70%;
 }
 
 .texto {
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", serif;
     font-size: 17px;
-    text-align: justify;
-    color: #c90959;
+    /* text-align: justify; */
+    color: #313131;
+    font-weight: lighter;
 }
 
 .n-texto {
-    font-weight: 800;
-    color: #c90909;
+    font-family: "Raleway", serif;
+    color: #000000;
 }
 
 .mi-imagen {
@@ -502,6 +599,20 @@ a {
 }
 
 /* COMENTARIOS-COMENTARIOS-COMENTARIOS */
+.tercera-parte {
+    background-image: linear-gradient(to top,
+            rgba(255, 0, 255, 0) 100%,
+            rgba(238, 0, 159, 0) 100%),
+        url(../img/fondo-comentario.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* filter: hue-rotate(330deg); */
+}
+
 
 .seccion-comentario {
     display: flex;
@@ -514,7 +625,7 @@ a {
 }
 
 .titulo-comentario {
-    background-color: rgba(111, 88, 238, 0.795);
+    background-color: transparent(111, 88, 238, 0.795);
     width: 100%;
     max-width: 400px;
     height: 60px;
@@ -525,14 +636,14 @@ a {
     padding: 0 20px;
     /*border-radius: 10px;*/
     color: black;
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", serif;
 }
 
 .comentario-datos {
     margin-right: 10px;
-    background-color: rgba(172, 174, 255, 0.7);
+    background-color: transparent(172, 174, 255, 0.7);
     width: 100%;
-    height: 235px;
+    height: 265px;
     max-width: 400px;
     display: flex;
     flex-direction: row;
@@ -555,17 +666,114 @@ a {
     flex-direction: column;
     justify-content: baseline;
     gap: 5px;
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", serif;
     margin-left: 10px;
     margin-right: 10px;
 }
 
+#nuevoComentario {
+    height: 50px;
+    /* Establece la altura deseada */
+    resize: none;
+    /* Deshabilita el redimensionamiento del textarea */
+    font-family: "Raleway", serif;
+}
+
 .input-comentario input,
 .input-comentario textarea {
+    margin-top: 4px;
+    margin-bottom: 4px;
     width: 97.5%;
     padding: 5px;
     border: 1px solid #ccc;
     /*border-radius: 3px;*/
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.form {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.group {
+    position: relative;
+}
+
+.form .group label {
+    font-size: 14px;
+    color: rgb(99, 102, 102);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    transition: all .3s ease;
+}
+
+.form .group input,
+.form .group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+.form .group input:placeholder-shown+label,
+.form .group textarea:placeholder-shown+label {
+    top: 10px;
+    background-color: transparent;
+}
+
+.form .group input:focus,
+.form .group textarea:focus {
+    border-color: #ff39b6;
+}
+
+.form .group input:focus+label,
+.form .group textarea:focus+label {
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    color: #ff39b6;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form .group textarea {
+    resize: none;
+    height: 100px;
+}
+
+.form button {
+    background-color: #3366cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #27408b;
 }
 
 .btn-agg {
@@ -574,29 +782,37 @@ a {
     justify-content: flex-end;
     align-items: center;
     padding: 0px 5px 0px 0px;
-    width: 100%;
+    width: 106%;
+    font-family: "Raleway", serif;
 }
 
 .btn-agg button {
-    padding: 7px 15px;
-    border: 1px solid rgb(17, 0, 255);
-    border-radius: 20px;
-    background-color: rgb(20, 94, 255);
+    font-family: "Raleway", serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 0px solid #ff48bc;
+    border-radius: 0px;
+    background-color: #ff39b6;
     color: rgb(255, 255, 255);
     outline: none;
     font-size: 12px;
     cursor: pointer;
     margin-top: 30px;
-    /* Ajusta el valor según la separación deseada */
+    transition: background-color 0.3s ease;
+    /* Ajusta el valor segÃºn la separaciÃ³n deseada */
 }
 
 .btn-agg button:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 17, 255);
+    background-color: #ac00fc;
+    color: #ffffff;
+}
+
+.comentario-comentario-comentario {
+    border: 1px solid #ff39b6;
 }
 
 .titulo-caja-comentario {
-    background-color: rgba(24, 200, 253, 0.795);
+    background-color: #ff39b6;
     width: 100%;
     max-width: 600px;
     height: 60px;
@@ -604,9 +820,10 @@ a {
     justify-content: center;
     align-items: center;
     padding: 0 20px;
-    /*border-radius: 10px;*/
-    color: black;
-    font-family: "Lato", sans-serif;
+    border-bottom: 1px solid #ff39b6;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway", serif;
+    font-weight: bold;
 }
 
 .comentario-caja {
@@ -614,7 +831,7 @@ a {
     max-height: 300px;
     overflow-y: auto;
     height: auto;
-    background-color: rgba(144, 250, 250, 0.7);
+    background-color: #ffd1ee;
     display: flex;
     justify-content: flex-start;
     /* Centrar horizontalmente */
@@ -640,7 +857,7 @@ a {
     padding: 0 20px;
     /*border-radius: 10px;*/
     color: black;
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", serif;
 }
 
 .comentario-a {
@@ -655,7 +872,7 @@ a {
     padding: 0 20px;
     /*border-radius: 10px;*/
     color: black;
-    font-family: "Lato", sans-serif;
+    font-family: "Raleway", serif;
 }
 
 .comentario-a strong:first-of-type {
@@ -668,46 +885,94 @@ a {
 
 /* UBICACION-UBICACION-UBICACION */
 
-.cuerpo-ubicacion {
+.segunda-parte {
+    background-color: #ffd1ee;
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.mapa-ubicacion {
-    width: 600px;
-    height: 350px;
-    border: 0;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    border: 1px solid #7c7c7c;
+.ubi-boton-text {
+    color: white;
 }
 
-.imagen-ubicacion {
-    width: 210px;
-    height: 200px;
-    margin-left: -20px;
+.cuerpo-ubicacion {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
+
+.contenedor-rosado {
+    filter: hue-rotate(330deg);
+    /* Aplicar filtro de color */
+}
+
+.mapa-ubicacion {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 150%;
+    height: 100%;
+    border: 0;
+    margin-right: -30px;
+    margin-bottom: 0px;
+    border: 0px solid #7c7c7c;
+}
+
+.boton-estilizado {
+    margin-top: 20px;
+    background-color: #f154ff;
+    font-family: "Raleway", serif;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Agregando la animaciÃ³n */
+}
+
+.boton-estilizado:hover {
+    background-color: #8230ca;
+    /* Cambio de color al pasar el cursor */
+}
+
 
 .ubicanos-aqui {
-    text-align: center;
-    background-color: #910d0d00;
-    padding: 20px;
-    height: 310px;
-    margin-left: 80px;
-  }
-  
-  .ubicanos-aqui h2 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 0px;
-  }
-  
-  .ubicanos-aqui p {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.ubicanos-aqui h2 {
+    font-family: "Raleway", serif;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 0;
+    /* Eliminar margen */
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 0;
+    /* Eliminar relleno */
+}
+
+.ubicanos-aqui p {
+    font-family: "Raleway", serif;
     font-size: 15px;
-    margin-bottom: 0px;
-  }
-  
+    margin-top: 5px;
+    margin-left: 0;
+    /* Eliminar margen */
+    margin-bottom: 0;
+    margin-right: 40px;
+    padding: 0;
+    /* Eliminar relleno */
+}
+
 
 .social-media {
     width: 50%;
@@ -846,4 +1111,280 @@ a {
 
     }
 
+}
+
+
+
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    background-color: #f1f1f1;
+    /* Color de fondo del scroll vertical */
+}
+
+/* Firefox */
+/* Utiliza el selector .scrollbar si lo has aplicado a un elemento especÃ­fico */
+.scrollbar {
+    background-color: #f1f1f1;
+    /* Color de fondo del scroll vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color de la barra de desplazamiento vertical */
+}
+
+/* Firefox */
+.scrollbar-thumb {
+    background-color: #888;
+    /* Color de la barra de desplazamiento vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color de la barra de desplazamiento vertical al pasar el cursor */
+}
+
+/* Firefox */
+.scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color de la barra de desplazamiento vertical al pasar el cursor */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Ancho del scroll vertical */
+}
+
+/* Firefox */
+.scrollbar {
+    width: 10px;
+    /* Ancho del scroll vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento vertical */
+}
+
+/* Firefox */
+.scrollbar-thumb {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento vertical */
+}
+
+n elemento especÃ­fico */ .scrollbar {
+    background-color: #f1f1f1;
+    /* Color de fondo del scroll vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color de la barra de desplazamiento vertical */
+}
+
+/* Firefox */
+.scrollbar-thumb {
+    background-color: #888;
+    /* Color de la barra de desplazamiento vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color de la barra de desplazamiento vertical al pasar el cursor */
+}
+
+/* Firefox */
+.scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color de la barra de desplazamiento vertical al pasar el cursor */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Ancho del scroll vertical */
+}
+
+/* Firefox */
+.scrollbar {
+    width: 10px;
+    /* Ancho del scroll vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento vertical */
+}
+
+/* Firefox */
+.scrollbar-thumb {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento vertical */
+}
+
+.scrollbar {
+    background-color: #f1f1f1;
+    /* Color de fondo del scroll vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color de la barra de desplazamiento vertical */
+}
+
+/* Firefox */
+.scrollbar-thumb {
+    background-color: #888;
+    /* Color de la barra de desplazamiento vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color de la barra de desplazamiento vertical al pasar el cursor */
+}
+
+/* Firefox */
+.scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color de la barra de desplazamiento vertical al pasar el cursor */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Ancho del scroll vertical */
+}
+
+/* Firefox */
+.scrollbar {
+    width: 10px;
+    /* Ancho del scroll vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento vertical */
+}
+
+/* Firefox */
+.scrollbar-thumb {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento vertical */
+}
+
+.scrollbar {
+    background-color: #f1f1f1;
+    /* Color de fondo del scroll vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color de la barra de desplazamiento vertical */
+}
+
+/* Firefox */
+.scrollbar-thumb {
+    background-color: #888;
+    /* Color de la barra de desplazamiento vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color de la barra de desplazamiento vertical al pasar el cursor */
+}
+
+/* Firefox */
+.scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color de la barra de desplazamiento vertical al pasar el cursor */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Ancho del scroll vertical */
+}
+
+/* Firefox */
+.scrollbar {
+    width: 10px;
+    /* Ancho del scroll vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento vertical */
+}
+
+/* Firefox */
+.scrollbar-thumb {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento vertical */
+}
+
+.scrollbar {
+    background-color: #f1f1f1;
+    /* Color de fondo del scroll vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color de la barra de desplazamiento vertical */
+}
+
+/* Firefox */
+.scrollbar-thumb {
+    background-color: #888;
+    /* Color de la barra de desplazamiento vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color de la barra de desplazamiento vertical al pasar el cursor */
+}
+
+/* Firefox */
+.scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color de la barra de desplazamiento vertical al pasar el cursor */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Ancho del scroll vertical */
+}
+
+/* Firefox */
+.scrollbar {
+    width: 10px;
+    /* Ancho del scroll vertical */
+}
+
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento vertical */
+}
+
+/* Firefox */
+.scrollbar-thumb {
+    width: 10px;
+    /* Ancho de la barra de desplazamiento vertical */
 }
