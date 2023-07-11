@@ -9,7 +9,7 @@ const productos = [
         },
         "ubicacion": "Puesto N-02",
         "descripcion": " De 9:30am a 10:00 pm ",
-        "url": "./detalletienda.html"
+        "url": "./detalle de tiendas/detalletienda1.html"
     },
     {
         "id": "ropa-02",
@@ -20,7 +20,8 @@ const productos = [
             "id": "ropa"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas/detalletienda4.html"
     },
     {
         "id": "ropa-03",
@@ -31,7 +32,8 @@ const productos = [
             "id": "ropa"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas/detalletienda5.html"
     },
     {
         "id": "ropa-04",
@@ -42,7 +44,8 @@ const productos = [
             "id": "ropa"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas/detalletienda2.html"
     },
     {
         "id": "ropa-05",
@@ -53,7 +56,8 @@ const productos = [
             "id": "ropa"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas/detalletienda3.html"
     },
     {
         "id": "accesorio-01",
@@ -65,7 +69,7 @@ const productos = [
         },
         "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm ",
-        "url": "./detalletienda2.html"
+        "url": "./detalle de tiendas/detalletienda6.html"
     },
     {
         "id": "accesorio-02",
@@ -76,7 +80,8 @@ const productos = [
             "id": "accesorios"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas/detalletienda7.html"
     },
     {
         "id": "accesorio-03",
@@ -87,7 +92,8 @@ const productos = [
             "id": "accesorios"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas/detalletienda8.html"
     },
     {
         "id": "accesorio-04",
@@ -98,7 +104,8 @@ const productos = [
             "id": "accesorios"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas/detalletienda9.html"
     },
     {
         "id": "accesorio-05",
@@ -109,7 +116,8 @@ const productos = [
             "id": "accesorios"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas/detalletienda10.html"
     },
     {
         "id": "accesorio-06",
@@ -120,7 +128,8 @@ const productos = [
             "id": "accesorios"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas/detalletienda11.html"
     },
     {
         "id": "accesorio-07",
@@ -131,7 +140,8 @@ const productos = [
             "id": "accesorios"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas/detalletienda12.html"
     },
     {
         "id": "accesorio-08",
@@ -142,7 +152,8 @@ const productos = [
             "id": "accesorios"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas./detalletienda13.html"
     },
     {
         "id": "cartera-01",
@@ -154,7 +165,7 @@ const productos = [
         },
         "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm ",
-        "url": "./detalletienda3.html"
+        "url": "./detalle de tiendas./detalletienda14.html"
     },
     {
         "id": "cartera-02",
@@ -165,7 +176,8 @@ const productos = [
             "id": "carteras"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas./detalletienda15.html"
     },
     {
         "id": "cartera-03",
@@ -176,7 +188,8 @@ const productos = [
             "id": "carteras"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas./detalletienda16.html"
     },
     {
         "id": "cartera-04",
@@ -187,7 +200,8 @@ const productos = [
             "id": "carteras"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas./detalletienda17.html"
     },
     {
         "id": "cartera-05",
@@ -198,7 +212,8 @@ const productos = [
             "id": "carteras"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas./detalletienda18.html"
     },
     {
         "id": "comida-01",
@@ -210,7 +225,7 @@ const productos = [
         },
         "ubicacion": "Puesto N-02",
         "descripcion": "De 9:30am a 10:00 pm ",
-        "url": "./detalletienda4.html"
+        "url": "./detalle de tiendas./detalletienda19.html"
     },
     {
         "id": "comida-02",
@@ -221,7 +236,8 @@ const productos = [
             "id": "comida"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas./detalletienda20.html"
     },
     {
         "id": "comida-03",
@@ -232,7 +248,8 @@ const productos = [
             "id": "comida"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas./detalletienda21.html"
     },
     {
         "id": "jugueteria-01",
@@ -243,7 +260,7 @@ const productos = [
             "id": "jugueteria"
         },
         "descripcion": "De 9:30am a 10:00 pm ",
-        "url": "./detalletienda5.html"
+        "url": "./detalle de tiendas./detalletienda22.html"
     },
     {
         "id": "jugueteria-02",
@@ -253,7 +270,8 @@ const productos = [
             "nombre": "Jugueterias",
             "id": "jugueteria"
         },
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas./detalletienda23.html"
     },
     {
         "id": "jugueteria-03",
@@ -263,7 +281,8 @@ const productos = [
             "nombre": "Jugueterias",
             "id": "jugueteria"
         },
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas./detalletienda24.html"
     },
     {
         "id": "jugueteria-04",
@@ -273,7 +292,8 @@ const productos = [
             "nombre": "Jugueterias",
             "id": "jugueteria"
         },
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas./detalletienda25.html"
     },
     {
         "id": "tecnologia-01",
@@ -284,7 +304,7 @@ const productos = [
             "id": "tecnologia"
         },
         "descripcion": "De 9:30am a 10:00 pm ",
-        "url": "./detalletienda6.html"
+        "url": "./detalle de tiendas./detalletienda26.html"
     },
     {
         "id": "jugueteria-02",
@@ -295,7 +315,8 @@ const productos = [
             "id": "tecnologia"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas./detalletienda27.html"
     },
     {
         "id": "jugueteria-03",
@@ -306,7 +327,8 @@ const productos = [
             "id": "tecnologia"
         },
         "ubicacion": "Puesto N-02",
-        "descripcion": "De 9:30am a 10:00 pm "
+        "descripcion": "De 9:30am a 10:00 pm ",
+        "url": "./detalle de tiendas./detalletienda28.html"
     }
 ];
 
