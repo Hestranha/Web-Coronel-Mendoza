@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>GB GRUPO</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="../../css/styledetalletienda.css" rel="stylesheet" />
+        <!-- Cambio en el head-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/c563013b9e.js" crossorigin="anonymous"></script>
+        <!-- Cambio en el head-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!--BIBLIOTECA ESTRELLAS-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!--BIBLIOTECA REDES SOCIALES-->
+    </head>
+    <!-- Cambio en el header -->
+    <div class="header">
+        <nav class="nav_header">
+            <a href="../../index.html"><img src="../../img/logo.png" class="logo" alt=""></a>
+            <ul class="nav_links">
+
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../../tiendas.html">Tiendas</a></li>
+                <li><a href="../../index.html#noticias_">Noticias</a></li>
+                <li><a href="../../aboutus.html">Nosotros</a></li>
+                
+            </ul>
+            <div class="social-links">
+
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+
+            </div>
+
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="resposive_menu">
+
+                <li class="li_nav"><a href="../../index.html" class="nav__link">Inicio</a></li>
+                <li class="li_nav"><a href="../../tiendas.html" class="nav__link">Tiendas</a></li>
+                <li class="li_nav"><a href="../../index.html#noticias_" class="nav__link" class="red">Noticias</a></li>
+                <li class="li_nav"><a href="../../aboutus.html" class="nav__link">Sobre Nosotros</a></li>
+            </div>
+
+        </nav>
+
+        <script>
+            const togglebtn = document.querySelector('.toggle_btn')
+            const togglebtnIcon = document.querySelector('.toggle_btn i')
+            const resposiveMenu = document.querySelector('.resposive_menu')
+            togglebtn.onclick = function () {
+                resposiveMenu.classList.toggle('open')
+                const isOpen = resposiveMenu.classList.contains('open')
+                togglebtnIcon.classList = isOpen
+                    ? 'fa-solid fa-xmark'
+                    : 'fa-solid fa-bars'
+            }
+    
+    
+        </script>
+
+        
+    </div>
+
+    <!-- Cambio en el header -->
+            <!-- Product section-->
+            <section class="py-5">
+                <div class="container px-4 px-lg-5 my-5">
+                    <div class="row gx-4 gx-lg-5 align-items-center">
+                        <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="https://hestranha.github.io/Web-Coronel-Mendoza/img/tecnologia/01.jpg" alt="..." /></div>
+                        <div class="col-md-6">
+                            <h1 class="display-5 fw-bolder">GB GRUPO</h1>
+                            <div class="rating">
+                                <span class="stars">
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star"></i>
+                                  <i class="fas fa-star-half-alt"></i>
+                                </span>
+                                <span class="score">4,5</span>
+                              </div>
+
+                              
+                            <div class="fs-4 mb-4">Ubicacion   Puesto N-26 </div>
+                            <div class="fs-4 mb-4">Contacto    981321117</div>
+                            <p class="lead">Tu destino para la tecnología de última generación. Amplia variedad de 
+                                dispositivos, accesorios y servicios tecnológicos. Asesoramiento 
+                                personalizado y soluciones adaptadas. Únete al futuro digital en GB Grupo.
+                                </p>
+                            <p class="lead">¡Te esperamos!</p>
+                            <p class="lead">HORARIOS DE LUNES A VIERNES</p>
+                            <p class="lead">Apertura 10:00AM</p>
+                            <p class="lead">Cierre   6:00PM</p>
+
+                            <div class="social-button facebook">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                              </div>
+                              
+                              <div class="social-button twitter">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                              </div>
+                              
+                              <div class="social-button instagram">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                              </div>
+                              <style>
+                                .social-button {
+                                display: inline-block;
+                                width: 40px;
+                                height: 40px;
+                                background-color: #333;
+                                border-radius: 50%;
+                                margin-right: 10px;
+                                overflow: hidden;
+                                }
+
+                                .social-button a {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 100%;
+                                height: 100%;
+                                color: #fff;
+                                font-size: 20px;
+                                text-decoration: none;
+                                }
+
+                                .social-button.facebook {
+                                background-color: #3b5998;
+                                }
+
+                                .social-button.twitter {
+                                background-color: #1da1f2;
+                                }
+
+                                .social-button.instagram {
+                                background-color: #f2059f;
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- Related items section-->
+        <section class="py-5 bg-light">
+            <div class="container px-4 px-lg-5 mt-5">
+                <h2 class="fw-bolder mb-4">Mas tiendas</h2>
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://hestranha.github.io/Web-Coronel-Mendoza/img/tecnologia/02.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">R&M</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                            <span class="starss">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        
+                                            </span>
+                                    </div>
+                                    <!-- Product price-->
+                                    10:00AM - 8:30PM
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="detalletienda27.html">Ver Detalles</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://hestranha.github.io/Web-Coronel-Mendoza/img/tecnologia/03.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">COOLBOX</h5>
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <span class="starss">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            </span>
+                                        
+                                    </div>
+                                    <!-- Product price-->
+                                    10:30AM - 7:30PM
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="detalletienda28.html">Ver detalles</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+                            <!-- Cambio en el footer -->
+    <footer class="footer_index">
+        <div class="container_footer_index">
+            <div class="row">
+
+                <div class="footer-col">
+                    <h4>Organizacion</h4>
+                    <ul>
+                        <li><a href="#">Nostros</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="#">Misión</a></li>
+                        <li><a href="#">Visión</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">Ubicanos</a></li>
+                        <li><a href="#">Directorio</a></li>
+                        <li><a href="#">Contactos</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col">
+                    <h4>Siganos</h4>
+                    <div class="social-links">
+                            
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    <!-- Cambio en el footer -->
+    </body>
+</html>
