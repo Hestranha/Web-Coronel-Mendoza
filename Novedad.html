@@ -1,0 +1,457 @@
+
+<!DOCTYPE html>
+<html lang="Español">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Novedades</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/style-inicio.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
+        <link rel="icon" type="image/png" href="img/icon.jpg">
+        <script src="splide-4.1.3/dist/js/splide.min.js"></script>
+        <!-- Cambio en el head-->
+        <script src="https://kit.fontawesome.com/c563013b9e.js" crossorigin="anonymous"></script>
+        <!-- Cambio en el head-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.20/dist/sweetalert2.all.min.js"></script>
+        <!-- Fuentes de letras -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/styleNovedad.css" rel="stylesheet">
+    </head>
+
+
+    <div class="header">
+        <nav class="nav">
+            <a href="index.html"><img src="img/logo.png" class="logo" alt=""></a>
+            <ul class="nav_links">
+
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tiendas.html">Tiendas</a></li>
+                <li><a href="#noticias_">Noticias</a></li>
+                <li><a href="aboutus.html">Nosotros</a></li>
+                <li><a href="Novedad.html">Novedades</a></li>
+            </ul>
+
+            <div class="social-links">
+
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+
+            </div>
+
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="resposive_menu">
+                <li class="li_nav"><a href="index.html" class="nav__link">Inicio</a></li>
+                <li class="li_nav"><a href="tiendas.html" class="nav__link">Tiendas</a></li>
+                <li class="li_nav"><a href="#noticias_" class="nav__link" class="red">Noticias</a></li>
+                <li class="li_nav"><a href="aboutus.html" class="nav__link">Sobre Nosotros</a></li>
+            </div>
+
+        </nav>
+
+        <script>
+            const togglebtn = document.querySelector('.toggle_btn')
+            const togglebtnIcon = document.querySelector('.toggle_btn i')
+            const resposiveMenu = document.querySelector('.resposive_menu')
+            togglebtn.onclick = function () {
+                resposiveMenu.classList.toggle('open')
+                const isOpen = resposiveMenu.classList.contains('open')
+                togglebtnIcon.classList = isOpen
+                    ? 'fa-solid fa-xmark'
+                    : 'fa-solid fa-bars'
+            }
+
+
+        </script>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <body>
+        
+        <!-- Top News Start-->
+        <div class="top-news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 tn-left">
+                        <div class="row tn-slider">
+                            <div class="col-md-6">
+                                <div class="tn-img">
+                                    <img src="img/news-450x350-1.jpg" />
+                                    <div class="tn-title">
+                                        <a href="">Primera Novedad IMPORTANTE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tn-img">
+                                    <img src="img/news-450x350-2.jpg" />
+                                    <div class="tn-title">
+                                        <a  href="">Segunda Novedad IMPORTANTE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 tn-right">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="tn-img">
+                                    <img src="img/news-350x223-1.jpg" />
+                                    <div class="tn-title">
+                                        <a href="">Tercers Novedad</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tn-img">
+                                    <img src="img/news-350x223-2.jpg" />
+                                    <div class="tn-title">
+                                        <a href="">4ta Novedad </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tn-img">
+                                    <img src="img/news-350x223-3.jpg" />
+                                    <div class="tn-title">
+                                        <a href="">5ta Novedad </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tn-img">
+                                    <img src="img/news-350x223-4.jpg" />
+                                    <div class="tn-title">
+                                        <a href="">6ta Novedad </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top News End-->
+
+        <!-- Category News Start-->
+        <div class="cat-news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Deportes</h2>
+                        <div class="row cn-slider">
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="img/news-350x223-1.jpg" />
+                                    <div class="cn-title">
+                                        <a href="">Novedad Deporte 1</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="img/news-350x223-2.jpg" />
+                                    <div class="cn-title">
+                                        <a href="">Novedad Deporte 2</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="img/news-350x223-3.jpg" />
+                                    <div class="cn-title">
+                                        <a href="">Novedad Deporte 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Tecnologia</h2>
+                        <div class="row cn-slider">
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="img/news-350x223-4.jpg" />
+                                    <div class="cn-title">
+                                        <a href="">Novedad Tecnologia 1</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="img/news-350x223-5.jpg" />
+                                    <div class="cn-title">
+                                        <a href="">Novedad Tecnologia 2</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="img/news-350x223-1.jpg" />
+                                    <div class="cn-title">
+                                        <a href="">Novedad Tecnologia 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Category News Start-->
+        <div class="cat-news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Negocios</h2>
+                        <div class="row cn-slider">
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="img/news-350x223-5.jpg" />
+                                    <div class="cn-title">
+                                        <a href="">Novedad Negocios 1</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="img/news-350x223-4.jpg" />
+                                    <div class="cn-title">
+                                        <a href="">Novedad Negocios 2</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="img/news-350x223-3.jpg" />
+                                    <div class="cn-title">
+                                        <a href="">Novedad Negocios 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Entretenimiento</h2>
+                        <div class="row cn-slider">
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="img/news-350x223-2.jpg" />
+                                    <div class="cn-title">
+                                        <a href="">Novedad Entretenimiento 1</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="img/news-350x223-1.jpg" />
+                                    <div class="cn-title">
+                                        <a href="">Novedad Entretenimiento 2</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="img/news-350x223-3.jpg" />
+                                    <div class="cn-title">
+                                        <a href="">Novedad Entretenimiento 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Category News End-->
+
+        <!-- Tab News Start-->
+        <div class="tab-news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="nav nav-pills nav-justified">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="pill" href="#featured">Novedades Destacadas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#popular">Novedades Populares</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="pill" href="#latest">Ultimas Novedades</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="featured" class="container tab-pane active">
+                                <div class="tn-news">
+                                    <div class="tn-img">
+                                        <img src="img/news-350x223-1.jpg" />
+                                    </div>
+                                    <div class="tn-title">
+                                        <a href="">Xdddddddddddd 1</a>
+                                    </div>
+                                </div>
+                                <div class="tn-news">
+                                    <div class="tn-img">
+                                        <img src="img/news-350x223-2.jpg" />
+                                    </div>
+                                    <div class="tn-title">
+                                        <a href="">Xdddddddddddddd 2</a>
+                                    </div>
+                                </div>
+                                <div class="tn-news">
+                                    <div class="tn-img">
+                                        <img src="img/news-350x223-3.jpg" />
+                                    </div>
+                                    <div class="tn-title">
+                                        <a href="">Xddddddddddddddd 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="popular" class="container tab-pane fade">
+                                <div class="tn-news">
+                                    <div class="tn-img">
+                                        <img src="img/news-350x223-4.jpg" />
+                                    </div>
+                                    <div class="tn-title">
+                                        <a href="">FFFFFFFFFF 1</a>
+                                    </div>
+                                </div>
+                                <div class="tn-news">
+                                    <div class="tn-img">
+                                        <img src="img/news-350x223-5.jpg" />
+                                    </div>
+                                    <div class="tn-title">
+                                        <a href="">FFFFFFFFFFFFFFFFFF 2</a>
+                                    </div>
+                                </div>
+                                <div class="tn-news">
+                                    <div class="tn-img">
+                                        <img src="img/news-350x223-1.jpg" />
+                                    </div>
+                                    <div class="tn-title">
+                                        <a href="">FFFFFFFFFFFFFFFFFFF 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="latest" class="container tab-pane fade">
+                                <div class="tn-news">
+                                    <div class="tn-img">
+                                        <img src="img/news-350x223-2.jpg" />
+                                    </div>
+                                    <div class="tn-title">
+                                        <a href="">AAAAAAAAAAAAA 1</a>
+                                    </div>
+                                </div>
+                                <div class="tn-news">
+                                    <div class="tn-img">
+                                        <img src="img/news-350x223-3.jpg" />
+                                    </div>
+                                    <div class="tn-title">
+                                        <a href="">AAAAAAAAAAA 2</a>
+                                    </div>
+                                </div>
+                                <div class="tn-news">
+                                    <div class="tn-img">
+                                        <img src="img/news-350x223-4.jpg" />
+                                    </div>
+                                    <div class="tn-title">
+                                        <a href="">AAAAAAAAAAAAA 3</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Cambio en el footer -->
+        <footer class="footer_index">
+            <div class="container_footer_index">
+                <div class="row">
+
+                    <div class="footer-col">
+                        <h4>Organización</h4>
+                        <ul>
+                            <li><a href="aboutus.html#Nosotros_">Nosotros</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="aboutus.html#Mision_">Misión</a></li>
+                            <li><a href="aboutus.html#Vision_">Visión</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Ayuda</h4>
+                        <ul>
+                            <li><a href="#Ubicanos_">Ubicanos</a></li>
+                            <li><a href="#">Directorio</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="footer-col">
+                        <h4>Contacto</h4>
+                        <div class="social-links">
+
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <!-- Cambio en el footer -->
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="lib/Novedad.js"></script>
+    </body>
+</html>
